@@ -1,0 +1,64 @@
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --suble-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%
+    color: ;
+}
+
+.filter-button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: ;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: ;
+    background-color: ;
+}
+
+.logo {
+    color: ;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+.header3 {
+    font-weight: medium;
+    font-size: 20px;
+}
+
+.desc-header3 {
+
+}
+
+.btn {
+    color: ;
+    background-color: ;
+}
