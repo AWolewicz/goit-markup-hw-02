@@ -1,45 +1,72 @@
 :root {
-    --primary-brand: #4D5AE5;
-    --pressed-state: #404BBF;
-    --dark: #2E2F42;
-    --success: #31D0AA;
-    --text: #434455;
-    --suble-text: #8E8F99;
-    --accent: #E7E9FC;
-    --light: #F4F4FD;
-    --modal-overlay: #2E2F42;
-    --hero-background: #2E2F42;
-    --white-background: #FFFFFF;
-    --modal-background: #FCFCFC;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%
-    color: ;
+    line-height: 150%;
+    letter-spacing: 2%;
+    color: var(--navy-blue);
+}
+
+.navigation 
+{
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    color: var(--navy-blue);
 }
 
 .filter-button {
     font-family: inherit;
     cursor: pointer;
+    color: var(--iris);
+    background-color: var(--cloud);
 }
 
 .filter-button:hover,
 .filter-button:focus {
-    background-color: ;
+    background-color: var(--ocean);
+    color: var(--white);
+}
+
+.address-link {
+    color: var(--slate);
+    text-decoration: none;
+    letter-spacing: 0.32px;
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: ;
-    background-color: ;
+    color: var(--ocean);
 }
 
 .logo {
-    color: ;
+    text-decoration: none;
+    color: var(--iris);
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0,54px;
+}
+
+.half-logo {
+    color: var(--navy-blue);
 }
 
 .title {
@@ -50,15 +77,22 @@ body {
 }
 
 .header3 {
-    font-weight: medium;
+    font-weight: 500;
     font-size: 20px;
-}
-
-.desc-header3 {
-
+    line-height: 120%;
+    letter-spacing: 0.4px;
 }
 
 .btn {
-    color: ;
-    background-color: ;
+    font-family: inherit;
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+    cursor: pointer;
 }
