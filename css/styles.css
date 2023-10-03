@@ -19,7 +19,7 @@
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 2%;
-    color: var(--navy-blue);
+    color:#434455;
     background-color: #FFFFFF;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .address-link {
-    color: var(--slate);
+    color: #434455;
     text-decoration: none;
     letter-spacing: 0.32px;
     line-height: 1.5;
@@ -75,12 +75,17 @@
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
 }
 
 .link {
     color: var(--navy-blue);
     text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color:#404BBF;
 }
 
 .link-foo {
@@ -104,7 +109,7 @@
     background-color: var(--navy-blue);
 }
 
-.header3 {
+.header-third {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -113,7 +118,7 @@
 
 }
 
-.desc-header3 {
+.desc-header-third {
     color: var(--slate);
     letter-spacing: 0.02em;
 }
@@ -136,7 +141,7 @@
     cursor: pointer;
 }
 
-.header2 {
+.sec-header {
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
@@ -165,7 +170,7 @@
 
 .works-header {
     font-weight: 500;
-    font-size: 20pxb;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -176,5 +181,5 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    
+
 }
