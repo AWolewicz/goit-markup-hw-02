@@ -50,6 +50,11 @@
     color: var(--white);
 }
 
+.link {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
 .address-link {
     color: #434455;
     text-decoration: none;
@@ -65,11 +70,6 @@
 .foo-section {
     background-color: var(--navy-blue);
     color: var(--cloud);
-}
-
-.link {
-    color: #2E2F42;
-    text-decoration: none;
 }
 
 .logo {
